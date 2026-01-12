@@ -79,12 +79,6 @@ This project builds upon existing open-source implementations:
 - Haarnoja et al., "Soft Actor-Critic: Off-Policy Maximum Entropy Deep RL" (ICML 2018)
 - Bengio et al., "Curriculum Learning" (ICML 2009)
   
-
-## Contact
-
-Lucia van den Boogaart
-GitHub: [@luciavdbc](https://github.com/luciavdbc)
-
 ## License
 
 MIT License - see LICENSE file
