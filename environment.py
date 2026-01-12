@@ -46,7 +46,7 @@ class SpringSliderEnv(gym.Env):
     def __init__(
             self,
             stiffness=300.0,
-            target_distance=0.20,  # meters
+            target_distance=0.20,  
             max_steps=500,
             render_mode=None,
             gui=False,
@@ -115,7 +115,7 @@ class SpringSliderEnv(gym.Env):
         self._create_urdf()
 
     def _create_urdf(self):
-        """Create the URDF file for the slider mechanism."""
+        """Creating the URDF file for the slider mechanism."""
         urdf_content = """<?xml version="1.0"?>
 <robot name="grooved_slider">
 
@@ -581,7 +581,7 @@ if __name__ == "__main__":
         render_mode='human'
     )
 
-    print("\nEnvironment created successfully!")
+    print("\nEnvironment created successfully")
     print(f"Action space: {env.action_space}")
     print(f"Observation space: {env.observation_space}")
 
@@ -600,7 +600,7 @@ if __name__ == "__main__":
         step = 0
 
         while not done:
-            # Random action (you would replace this with your RL agent)
+            # Random action 
             action = env.action_space.sample()
 
             obs, reward, terminated, truncated, info = env.step(action)
@@ -625,10 +625,10 @@ if __name__ == "__main__":
         print(f"Episode reward: {episode_reward:.2f}")
 
         if info['has_reached_target']:
-            print(f"✓ Reached target area in {info['time_to_target']} steps")
+            print(f"Reached target area in {info['time_to_target']} steps")
         else:
             print("✗ Did not reach target area")
         print(f"{'=' * 70}")
 
     env.close()
-    print("\n✓ Environment test complete!")
+    print("\nEnvironment test complete")
