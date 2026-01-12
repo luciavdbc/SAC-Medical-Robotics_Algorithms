@@ -30,11 +30,11 @@ Takes about 10 hours to complete.
 
 ## Training Protocols
 
-**Linear Small**: Small steps (40 N/m increments)
+**Linear, small stiffness increments**: 40 N/m increments
 - Trains on 15 stiffness levels
 - Best performance on unseen values
 
-**Linear Large**: Large steps (110 N/m increments)
+**Linear, large stiffness increments**: 110 N/m increments
 - Trains on 6 stiffness levels
 - Fastest training but worse generalization
 
@@ -45,7 +45,7 @@ Takes about 10 hours to complete.
 - Baseline comparison
 
 **Patient Categories**: Grouped by difficulty
-- Easy, normal, and difficult patients
+- Easy, normal, and difficult anatomical stiffnesses
 
 ## Results
 
@@ -55,9 +55,6 @@ After running, you get:
 **Plots**: `plots_challenging/*.png` - 4 comparison figures
 **Data**: `results_challenging/*.json` - All metrics
 
-## Main Finding
-
-Small training steps generalize better than large steps, even though they take longer to train. The agent learns to interpolate between training points rather than just memorizing specific values.
 
 ## Environment Details
 
