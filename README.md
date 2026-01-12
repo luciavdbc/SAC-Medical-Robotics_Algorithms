@@ -4,7 +4,7 @@ Reinforcement learning for robotic surgery. Trains a robot to handle tissues wit
 
 ## What This Does
 
-Trains a Soft Actor-Critic (SAC) agent to reach a target position (20cm) across different tissue stiffness values (50-600 N/m). Compares 5 different training strategies to see which generalizes best to new, unseen stiffness values.
+Trains a Soft Actor-Critic (SAC) agent to reach a target position (20cm) across different tissue stiffness values. Compares 5 different training strategies to see which generalizes best to new, unseen stiffness values.
 
 ## Installation
 
