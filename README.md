@@ -65,6 +65,20 @@ State: position, velocity, target distance, stiffness, time
 Action: continuous force (-200 to 200 N)
 Physics: Hooke's law (F = -kx)
 
+## Acknowledgments
+
+This project builds upon existing open-source implementations:
+
+### Core Framework
+- **[Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)** - SAC implementation
+  - Raffin et al., "Stable-Baselines3: Reliable Reinforcement Learning Implementations" (JMLR 2021)
+- **[Gymnasium](https://gymnasium.farama.org/)** - Environment interface
+- **[PyBullet](https://pybullet.org/)** - Physics simulation
+
+### Key Papers
+- Haarnoja et al., "Soft Actor-Critic: Off-Policy Maximum Entropy Deep RL" (ICML 2018)
+- Bengio et al., "Curriculum Learning" (ICML 2009)
+- 
 ## Citation
 
 ```bibtex
