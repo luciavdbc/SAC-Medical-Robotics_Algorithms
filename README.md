@@ -62,7 +62,9 @@ The agent controls a 1D spring-mass system:
 - Goal: reach 20cm with 1cm precision
 
 State: position, velocity, target distance, stiffness, time
+
 Action: continuous force (-200 to 200 N)
+
 Physics: Hooke's law (F = -kx)
 
 ## Acknowledgments
