@@ -79,15 +79,6 @@ This project builds upon existing open-source implementations:
 - Haarnoja et al., "Soft Actor-Critic: Off-Policy Maximum Entropy Deep RL" (ICML 2018)
 - Bengio et al., "Curriculum Learning" (ICML 2009)
   
-## Citation
-
-```bibtex
-@article{vdBoogaartCastro2025sac,
-  title={Reinforcement Learning in Robotic Surgery: Using Soft Actor-Critic Algorithms for Adaptive Tissue Handling},
-  author={van den Boogaart Castro, Lucia},
-  year={2025}
-}
-```
 
 ## Contact
 
