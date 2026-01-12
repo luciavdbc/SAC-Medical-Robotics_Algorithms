@@ -78,7 +78,7 @@ This project builds upon existing open-source implementations:
 ### Key Papers
 - Haarnoja et al., "Soft Actor-Critic: Off-Policy Maximum Entropy Deep RL" (ICML 2018)
 - Bengio et al., "Curriculum Learning" (ICML 2009)
-- 
+  
 ## Citation
 
 ```bibtex
